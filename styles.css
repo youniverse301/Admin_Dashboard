@@ -348,11 +348,6 @@
     display: none;
   }
 
-
-  body {
-    display: flex;
-  }
-
   .container {
     display: grid;
     grid-template-columns: 1fr 4fr;
@@ -366,7 +361,7 @@
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 3;
-    background-color: blue;
+    background-color: #1992D4;
   }
 
   .header {
@@ -384,3 +379,229 @@
     grid-row-end: 3;
     background-color: green;
   }
+
+@font-face {
+  font-family: "Roboto";
+  src: url(/home/bjorn/repos/admin-dashboard/Roboto-Regular.ttf);
+}
+
+.sidebarGrid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows:  2fr repeat(11, 1fr);
+  row-gap: 15px;
+  padding-left: 3%;
+  padding-top: 3%;
+}
+
+.dgLogo {
+  height: 75px;
+  width: 75px;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+#home {
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  align-self: center;
+  justify-self: start;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  padding-left: 5%;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
+}
+
+.homebtn {
+  align-self: center;
+  justify-self: center;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+h1 {
+  justify-self: start;
+  align-self: start;
+  padding-top: 4%;
+  padding-left: 5%;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 1.8em;
+  color: white;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+#profile {
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  align-self: center;
+  justify-self: start;
+  padding-left: 5%;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
+}
+
+.profilebtn {
+  align-self: center;
+  justify-self: center;
+}
+
+#messages {
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  align-self: center;
+  justify-self: start;
+  padding-left: 5%;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
+}
+
+#history {
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  align-self: center;
+  justify-self: start;
+  padding-left: 5%;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
+}
+
+#tasks {
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  align-self: center;
+  justify-self: start;
+  padding-left: 5%;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
+}
+
+#communitiesbtn {
+  align-self: center;
+  justify-self: center;
+}
+
+#communities {
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  align-self: center;
+  justify-self: start;
+  padding-left: 5%;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
+}
+
+#settingsbtn {
+  align-self: center;
+  justify-self: center;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 10;
+  grid-row-end: 11;
+}
+
+#settings {
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  align-self: center;
+  justify-self: start;
+  padding-left: 5%;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 10;
+  grid-row-end: 11;
+}
+
+#supportbtn {
+  align-self: center;
+  justify-self: center;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 11;
+  grid-row-end: 12;
+}
+
+#support {
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  align-self: center;
+  justify-self: start;
+  padding-left: 5%;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 11;
+  grid-row-end: 12;
+}
+
+#privacybtn {
+  align-self: center;
+  justify-self: center;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 12;
+  grid-row-end: 13;
+}
+
+#privacy {
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  align-self: center;
+  justify-self: start;
+  padding-left: 5%;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 12;
+  grid-row-end: 13;
+}
